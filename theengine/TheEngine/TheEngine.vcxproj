@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{380955AD-10CE-4D3A-B6DE-569122141F97}</ProjectGuid>
+    <RootNamespace>TheEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lib/debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lib\release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;libSOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C24BitBMPpixel.cpp" />
+    <ClCompile Include="cAABB.cpp" />
+    <ClCompile Include="cAStarClasses.cpp" />
+    <ClCompile Include="cAStarManager.cpp" />
+    <ClCompile Include="cBasicTextureManager.cpp" />
+    <ClCompile Include="cCamera.cpp" />
+    <ClCompile Include="cDebugAABBEntity.cpp" />
+    <ClCompile Include="cEnemy.cpp" />
+    <ClCompile Include="cEntity.cpp" />
+    <ClCompile Include="cEntityBuilder.cpp" />
+    <ClCompile Include="cEntityFactory.cpp" />
+    <ClCompile Include="cFlocking.cpp" />
+    <ClCompile Include="CHRTimer.cpp" />
+    <ClCompile Include="cMediator.cpp" />
+    <ClCompile Include="cMeshTypeManager.cpp" />
+    <ClCompile Include="cObjectEntity.cpp" />
+    <ClCompile Include="cPlayer.cpp" />
+    <ClCompile Include="CPlyFile5nt.cpp" />
+    <ClCompile Include="CPlyFile5nt_experimental.cpp" />
+    <ClCompile Include="cSceneGraph.cpp" />
+    <ClCompile Include="cSceneNode.cpp" />
+    <ClCompile Include="cShader.cpp" />
+    <ClCompile Include="cShaderManager.cpp" />
+    <ClCompile Include="cSlowEnemy.cpp" />
+    <ClCompile Include="CStringHelper.cpp" />
+    <ClCompile Include="CTextureFromBMP.cpp" />
+    <ClCompile Include="CVector3f.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="jsoncpp.cpp" />
+    <ClCompile Include="JsonHelp.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C24BitBMPpixel.h" />
+    <ClInclude Include="CAABB.h" />
+    <ClInclude Include="cAABBManager.h" />
+    <ClInclude Include="cAStarClasses.h" />
+    <ClInclude Include="cAStarManager.h" />
+    <ClInclude Include="cBasicTextureManager.h" />
+    <ClInclude Include="cCamera.h" />
+    <ClInclude Include="cDebugAABBEntity.h" />
+    <ClInclude Include="cEnemy.h" />
+    <ClInclude Include="cEntity.h" />
+    <ClInclude Include="cEntityBuilder.h" />
+    <ClInclude Include="cEntityFactory.h" />
+    <ClInclude Include="cFlocking.h" />
+    <ClInclude Include="CHRTimer.h" />
+    <ClInclude Include="cMediator.h" />
+    <ClInclude Include="cMeshTypeManager.h" />
+    <ClInclude Include="cObjectEntity.h" />
+    <ClInclude Include="cPlayer.h" />
+    <ClInclude Include="CPlyFile5nt.h" />
+    <ClInclude Include="CPlyInfo.h" />
+    <ClInclude Include="cSceneGraph.h" />
+    <ClInclude Include="cSceneNode.h" />
+    <ClInclude Include="cShaderManager.h" />
+    <ClInclude Include="cSlowEnemy.h" />
+    <ClInclude Include="CStringHelper.h" />
+    <ClInclude Include="CTextureFromBMP.h" />
+    <ClInclude Include="CVector3f.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="iAIBehaviour.h" />
+    <ClInclude Include="iEntity.h" />
+    <ClInclude Include="iMediator.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="JsonHelp.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="sAABBID.h" />
+    <ClInclude Include="sAStarHelper.h" />
+    <ClInclude Include="sEntityDesc.h" />
+    <ClInclude Include="sMeshEntry.h" />
+    <ClInclude Include="sMeshVertex.h" />
+    <ClInclude Include="sPhysicsInfo.h" />
+    <ClInclude Include="sRenderingInfo.h" />
+    <ClInclude Include="sTriangle.h" />
+    <ClInclude Include="Utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\phongFrag.glsl" />
+    <None Include="assets\shaders\phongVert.glsl" />
+    <None Include="Scene.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

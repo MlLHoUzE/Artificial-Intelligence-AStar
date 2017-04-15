@@ -1,0 +1,291 @@
+{
+	//define the player
+	"Player": {
+		"rendering": {
+			"meshName": "deer.ply",
+			"textureName": "deer_texture.bmp",
+			"color": {
+				"x": 1.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"scale": 1
+		},
+		"physics": {
+			"position": {
+				"x": 0,
+				"y": 1,
+				"z": 0
+			},
+			"orientation": {	//this is in euler and converted to quat before being passed to player
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"speed": 5,
+			"angularSpeed": 5
+		}
+	},
+
+	"Camera": {
+		"offset":{
+			"x": 0,
+			"y": 15,
+			"z": -15
+		}
+	},
+
+
+	//define the area
+
+	//define an entity
+	"Entity": {
+		"entityType": "Enemy",
+		"meshName": "bear.ply",
+		"textureName": "bear_texture.bmp",
+		"color": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"scale": 7,
+		"position": {
+			"x": -70,
+			"y": 0,
+			"z": -80
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity2": {
+		"entityType": "SlowEnemy",
+		"meshName": "boar.ply",
+		"textureName": "boar_texture.bmp",
+		"color": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"scale": 7,
+		"position": {
+			"x": -90,
+			"y": 0,
+			"z": -70
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	}
+
+/*	"Entity3": {
+		"entityType": "Enemy",
+		"meshName": "tree.ply",
+		"textureName": "grass_texture.bmp",
+		"color": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"scale": 17,
+		"position": {
+			"x": 0,
+			"y": 15,
+			"z": 20
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity4": {
+		"entityType": "Enemy",
+		"meshName": "wall.ply",
+		"textureName": "brick_texture.bmp",
+		"textureName2": "graffiti.bmp",
+		"color": {
+			"x": 1,
+			"y": 1,
+			"z": 1
+		},
+		"scale": 30,
+		"position": {
+			"x": 0,
+			"y": 2,
+			"z": -25
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity5": {
+		"entityType": "Enemy",
+		"meshName": "wall.ply",
+		"textureName": "FenceActual.bmp",
+		"alphaTextureName": "FenceAlphaMask.bmp",
+		"color": {
+			"x": 1,
+			"y": 1,
+			"z": 1
+		},
+		"scale": 30,
+		"position": {
+			"x": 0,
+			"y": 2,
+			"z": 35
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity6": {
+		"entityType": "Enemy",
+		"meshName": "barrel.ply",
+		"textureName": "metal.bmp",
+		"color": {
+			"x": 1,
+			"y": 1,
+			"z": 0,
+			"w": 0.5
+		},
+		"scale": 30,
+		"position": {
+			"x": -10,
+			"y": 2,
+			"z": -5
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity7": {
+		"entityType": "Enemy",
+		"meshName": "barrel.ply",
+		"textureName": "metal.bmp",
+		"color": {
+			"x": 1,
+			"y": 1,
+			"z": 0,
+			"w": 0.1
+		},
+		"scale": 30,
+		"position": {
+			"x": -10,
+			"y": 2,
+			"z": 15
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity8": {
+		"entityType": "Enemy",
+		"meshName": "lamp.ply",
+		"textureName": "metal.bmp",
+		"textureName2": "rusty.bmp",
+		"color": {
+			"x": 0,
+			"y": 1,
+			"z": 1
+		},
+		"scale": 15,
+		"position": {
+			"x": 7,
+			"y": 0,
+			"z": 16
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity9": {
+		"entityType": "Enemy",
+		"meshName": "lamp.ply",
+		"textureName": "gold.bmp",
+		"textureName2": "rusty.bmp",
+		"color": {
+			"x": 0,
+			"y": 1,
+			"z": 1
+		},
+		"scale": 15,
+		"position": {
+			"x": -7,
+			"y": 0,
+			"z": -16
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity10": {
+		"entityType": "Enemy",
+		"meshName": "lamp.ply",
+		"textureName": "metal.bmp",
+		"color": {
+			"x": 0,
+			"y": 1,
+			"z": 1
+		},
+		"scale": 15,
+		"position": {
+			"x": -7,
+			"y": 0,
+			"z": 16
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+
+	"Entity11": {
+		"entityType": "Enemy",
+		"meshName": "lamp.ply",
+		"textureName": "metal.bmp",
+		"color": {
+			"x": 0,
+			"y": 1,
+			"z": 1
+		},
+		"scale": 15,
+		"position": {
+			"x": 7,
+			"y": 0,
+			"z": -16
+		},
+		"orientation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	}*/
+
+	
+}

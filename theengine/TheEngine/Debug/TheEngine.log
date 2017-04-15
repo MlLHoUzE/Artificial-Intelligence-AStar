@@ -1,0 +1,134 @@
+﻿Build started 2017-04-15 3:21:23 PM.
+     1>Project "C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\TheEngine\TheEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt C24BitBMPpixel.cpp cAABB.cpp cAStarClasses.cpp cAStarManager.cpp cBasicTextureManager.cpp cCamera.cpp cDebugAABBEntity.cpp cEnemy.cpp cEntity.cpp cEntityBuilder.cpp cEntityFactory.cpp cFlocking.cpp CHRTimer.cpp cMediator.cpp cMeshTypeManager.cpp cObjectEntity.cpp cPlayer.cpp CPlyFile5nt.cpp CPlyFile5nt_experimental.cpp cSceneGraph.cpp cSceneNode.cpp cShader.cpp cShaderManager.cpp cSlowEnemy.cpp CStringHelper.cpp CTextureFromBMP.cpp CVector3f.cpp Globals.cpp jsoncpp.cpp JsonHelp.cpp Main.cpp Render.cpp Utilities.cpp
+         Utilities.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\utilities.cpp(1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+         c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\utilities.cpp(1): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\utilities.cpp(240): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\utilities.cpp(283): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\utilities.cpp(342): warning C4018: '<': signed/unsigned mismatch
+         Render.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         Main.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\main.cpp(54): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\main.cpp(391): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\main.cpp(545): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         JsonHelp.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         jsoncpp.cpp
+         Globals.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\globals.cpp(23): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\globals.cpp(29): warning C4305: 'initializing': truncation from 'double' to 'float'
+         CVector3f.cpp
+         CTextureFromBMP.cpp
+         CStringHelper.cpp
+         cSlowEnemy.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\cslowenemy.cpp(133): warning C4018: '>': signed/unsigned mismatch
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\cslowenemy.cpp(142): warning C4018: '>': signed/unsigned mismatch
+         cShaderManager.cpp
+         cShader.cpp
+         cSceneNode.cpp
+         cSceneGraph.cpp
+         CPlyFile5nt_experimental.cpp
+         CPlyFile5nt.cpp
+         cPlayer.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         cObjectEntity.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\cobjectentity.cpp(124): warning C4018: '<': signed/unsigned mismatch
+         cMeshTypeManager.cpp
+         cMediator.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         CHRTimer.cpp
+         cFlocking.cpp
+         cEntityFactory.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         cEntityBuilder.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         cEntity.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         cEnemy.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\cenemy.cpp(133): warning C4018: '>': signed/unsigned mismatch
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\cenemy.cpp(142): warning C4018: '>': signed/unsigned mismatch
+         cDebugAABBEntity.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         cCamera.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         cBasicTextureManager.cpp
+         cAStarManager.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\castarmanager.cpp(237): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\castarmanager.cpp(239): warning C4018: '<': signed/unsigned mismatch
+         cAStarClasses.cpp
+         cAABB.cpp
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.h(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.cpp(128): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.cpp(216): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.cpp(298): warning C4018: '<': signed/unsigned mismatch
+         C24BitBMPpixel.cpp
+         Generating Code...
+     1>c:\users\user\desktop\fanshawe\semester1\ai\theengine\theengine\caabb.cpp(409): warning C4715: 'CAABB::getTriangles': not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt glad.c
+         glad.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\TheEngine.exe" /INCREMENTAL /NOLOGO glfw3.lib libSOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\TheEngine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\TheEngine.lib" /MACHINE:X86 Debug\C24BitBMPpixel.obj
+         Debug\cAABB.obj
+         Debug\cAStarClasses.obj
+         Debug\cAStarManager.obj
+         Debug\cBasicTextureManager.obj
+         Debug\cCamera.obj
+         Debug\cDebugAABBEntity.obj
+         Debug\cEnemy.obj
+         Debug\cEntity.obj
+         Debug\cEntityBuilder.obj
+         Debug\cEntityFactory.obj
+         Debug\cFlocking.obj
+         Debug\CHRTimer.obj
+         Debug\cMediator.obj
+         Debug\cMeshTypeManager.obj
+         Debug\cObjectEntity.obj
+         Debug\cPlayer.obj
+         Debug\CPlyFile5nt.obj
+         Debug\CPlyFile5nt_experimental.obj
+         Debug\cSceneGraph.obj
+         Debug\cSceneNode.obj
+         Debug\cShader.obj
+         Debug\cShaderManager.obj
+         Debug\cSlowEnemy.obj
+         Debug\CStringHelper.obj
+         Debug\CTextureFromBMP.obj
+         Debug\CVector3f.obj
+         Debug\glad.obj
+         Debug\Globals.obj
+         Debug\jsoncpp.obj
+         Debug\JsonHelp.obj
+         Debug\Main.obj
+         Debug\Render.obj
+         Debug\Utilities.obj
+     1>glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_tls.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\glfw.pdb'; linking object as if no debug info
+         TheEngine.vcxproj -> C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\Debug\TheEngine.exe
+     1>Done Building Project "C:\Users\user\Desktop\Fanshawe\Semester1\AI\theengine\TheEngine\TheEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.47

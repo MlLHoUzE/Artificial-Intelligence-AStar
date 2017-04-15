@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8fcffccc-d088-469f-a2f5-a63e9c2862b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{69e8019a-b0f1-4373-a870-21b5306b3c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshManager">
+      <UniqueIdentifier>{61e362a3-199a-45cc-92d7-82ba8a30c63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureManager">
+      <UniqueIdentifier>{ef0be924-b11a-41b5-97aa-bcd8a9f5b4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{692a23a7-eff6-4216-a336-4e1ed4260547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ply">
+      <UniqueIdentifier>{4f92a628-983b-44c3-822a-dbdf0b634283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{6e4175ef-2082-404a-95ae-e94b4a4c566a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{f2d17ff6-3a07-4e1f-a9ca-371cb3a6e1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{d7e5bb1c-27b1-4903-8bb9-4428f953b715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{dca44567-7f49-4527-8a81-d20e637c5642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityFactory">
+      <UniqueIdentifier>{3db952b1-32eb-4040-921a-2768b6ef6ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityBuilder">
+      <UniqueIdentifier>{0aadd3a9-1fa7-41e2-8157-210d9d6a6b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{0b7bbc23-7789-4431-8932-8247e3682d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{dfd049db-b922-4021-8015-0f5596ba3f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{aae9f768-f1bc-4b6e-9b57-03eac1d0b6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AABB">
+      <UniqueIdentifier>{5a504539-89d0-452f-a671-0c86d419198f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AStar">
+      <UniqueIdentifier>{2087cfa4-0882-420b-ac80-fb5ba0f6e44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AIBehaviours">
+      <UniqueIdentifier>{19a7c876-35d2-418a-8030-5bc4cee29274}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cMeshTypeManager.cpp">
+      <Filter>MeshManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C24BitBMPpixel.cpp">
+      <Filter>TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicTextureManager.cpp">
+      <Filter>TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureFromBMP.cpp">
+      <Filter>TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlyFile5nt.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="CStringHelper.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="CVector3f.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="CHRTimer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlyFile5nt_experimental.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediator.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="cEntityFactory.cpp">
+      <Filter>EntityFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="cEntityBuilder.cpp">
+      <Filter>EntityBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneGraph.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneNode.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonHelp.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="cDebugAABBEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="cAABB.cpp">
+      <Filter>AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="cAStarManager.cpp">
+      <Filter>AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="cAStarClasses.cpp">
+      <Filter>AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="cFlocking.cpp">
+      <Filter>AIBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="cSlowEnemy.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshTypeManager.h">
+      <Filter>MeshManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C24BitBMPpixel.h">
+      <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cBasicTextureManager.h">
+      <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureFromBMP.h">
+      <Filter>TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlyFile5nt.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="CStringHelper.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlyInfo.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector3f.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="CHRTimer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="iMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="iEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="sPhysicsInfo.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sRenderingInfo.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sMeshEntry.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sMeshVertex.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sEntityDesc.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntityFactory.h">
+      <Filter>EntityFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntityBuilder.h">
+      <Filter>EntityBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneGraph.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneNode.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonHelp.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="cDebugAABBEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CAABB.h">
+      <Filter>AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="cAABBManager.h">
+      <Filter>AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="sTriangle.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="sAABBID.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="cAStarManager.h">
+      <Filter>AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="sAStarHelper.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="cAStarClasses.h">
+      <Filter>AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="iAIBehaviour.h">
+      <Filter>AIBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="cFlocking.h">
+      <Filter>AIBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="cSlowEnemy.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\phongFrag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\phongVert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Scene.json">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>
